@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+}
+
+/* For tables/mobile */
+@media (max-width: 770px) {
+    .container {
+        width: 100%;
+    }
+}
